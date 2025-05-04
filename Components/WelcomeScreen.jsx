@@ -34,12 +34,12 @@ const WelcomeScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#FF9500',
+    backgroundColor: '#000000',
     paddingTop: 175,
     padding: 20,
   },
   card: {
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#FFD52B',
     borderRadius: 20,
     padding: 20,
     width: '100%',
@@ -72,6 +72,7 @@ const styles = StyleSheet.create({
     width: '100%',
     height: '100%',
   }
-});
+}); 
+
 
 export default WelcomeScreen;

@@ -12,8 +12,8 @@ const HomeScreen = ({ navigation }) => {
           style={styles.image}
           resizeMode="cover"
         />
-        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('SiteMap')}>
-          <Text style={styles.buttonText}>Categories</Text>
+        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Categories')}>
+            <Text style={styles.buttonText}>Categories</Text>
         </TouchableOpacity>
       </View>
 
@@ -23,7 +23,7 @@ const HomeScreen = ({ navigation }) => {
           style={styles.image}
           resizeMode="cover"
         />
-        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Categories')}>
+        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Sitemap')}>
           <Text style={styles.buttonText}>Site-map</Text>
         </TouchableOpacity>
       </View>

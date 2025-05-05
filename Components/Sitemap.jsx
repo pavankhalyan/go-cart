@@ -21,7 +21,7 @@ const sitemap = () => {
       </View>
 
       <Image
-        source={require('../assets/sitemap.png')}
+        source={require('../assets/site.png')}
         style={styles.mapImage}
         resizeMode="contain"
       />
